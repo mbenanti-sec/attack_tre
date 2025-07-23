@@ -11,7 +11,11 @@
 - Uses **impacket-ntlmrelayx** to relay to LDAP and create a weak service account  
 - Runs **GetUserSPNs.py** to request SPNs and dump TGS hashes  
 - Cracks hashes with **hashcat** (rockyou + custom wordlist)
+## Screenshots
 
+![Vars](screens/01_vars.png)
+![Chain running](screens/02_chain_running.png)
+![Hashcat](screens/03_hashcat.png)
 ---
 
 ## 2. Before you run it (IMPORTANT)
